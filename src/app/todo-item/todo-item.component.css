@@ -1,0 +1,20 @@
+.todoItem {
+  margin-top: 25px;
+  padding: 10px;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.itemTextMouseout {
+  width: 100%;
+  font-style: normal;
+}
+
+.itemTextMouseover {
+  float: left;
+  width: 80%;
+  font-style: bold;
+}

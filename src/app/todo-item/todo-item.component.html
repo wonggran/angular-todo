@@ -1,0 +1,9 @@
+<div>
+<div class="todoItem shadow-sm"
+(mouseenter)="showSettings=true"
+(mouseleave)="showSettings=false">
+  <div [ngClass]="getItemTextClass(showSettings)">{{item.text}}</div>
+  <app-todo-item-settings [showSettings]="showSettings" [item]="item"></app-todo-item-settings>
+</div>
+
+</div>

@@ -1,0 +1,4 @@
+<div class="todoInputContainer">
+  <input #todoInput placeholder="Enter what is to be done..." class="todoInput form-control">
+  <button (click)="itemListService.appendItem(todoInput.value)" class="todoAddBtn btn btn-outline-primary">Add</button>
+</div>

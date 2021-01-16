@@ -1,0 +1,7 @@
+<div class="itemSettings" *ngIf="showSettings">
+  <span class="itemDelete" (click)="itemListService.removeItem(item.id)">
+  <fa-icon
+  [icon]="faTrashAlt"
+  size="lg"></fa-icon>
+</span>
+</div>
